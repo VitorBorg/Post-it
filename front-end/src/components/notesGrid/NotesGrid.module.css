@@ -1,0 +1,30 @@
+.sectionSearch {
+  border: 1px solid #5f6368;
+  border-radius: 48px;
+  opacity: 1;
+  width: auto;
+  height: auto;
+}
+
+.divSearch {
+  padding: 10px 0px;
+}
+
+.formSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.liNote {
+  list-style: none;
+}
+
+.ulNote {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  position: relative;
+  margin: 50px auto;
+}
