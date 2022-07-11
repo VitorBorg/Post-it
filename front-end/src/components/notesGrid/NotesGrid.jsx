@@ -25,15 +25,17 @@ export default function NotesGrid() {
     <>
       <div>
         <ul className={styles.ulNote}>
-          {notes.map((note) => (
-            <li className={styles.liNote} key={note.idpost}>
-              <Note
-                title={note.titlepost}
-                body={note.textpost}
-                id={note.idpost}
-              />
-            </li>
-          ))}
+          {notes
+            .map((note) => (
+              <li className={styles.liNote} key={note.idpost}>
+                <Note
+                  title={note.titlepost}
+                  body={note.textpost}
+                  id={note.idpost}
+                />
+              </li>
+            ))
+            .reverse()}
         </ul>
       </div>
     </>

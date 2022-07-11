@@ -61,3 +61,18 @@
   font-family: Roboto, system, -apple-system, BlinkMacSystemFont, Helvetica Neue,
     Segoe UI, Arial, sans-serif;
 }
+
+.buttonSend {
+  background-color: forestgreen;
+  color: white;
+
+  width: 36px;
+  height: 36px;
+  font-size: 26px;
+  text-align: center;
+
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+}

@@ -4,6 +4,9 @@
   opacity: 1;
   width: clamp(100px, 160px, 200px);
   height: auto;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .div {
@@ -11,7 +14,38 @@
 }
 
 .title {
+  margin-top: 0px;
 }
 
 .body {
+}
+
+.buttonDelete {
+  background-color: rgba(0, 0, 0, 0);
+
+  width: 36px;
+  height: 36px;
+  font-size: 14px;
+  text-align: center;
+
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.svgButton {
+  opacity: 1;
+  fill: white;
+}
+
+.svgButton:hover {
+  opacity: 1;
+  fill: #6a6b6d;
+}
+
+.divFather:hover {
+  border: 1px solid #6a6b6d;
+  color: #6a6b6d;
+  opacity: 1;
 }

@@ -52,7 +52,9 @@ export default function InputNote() {
               required
             ></textarea>
 
-            <button type="submit">Enviar</button>
+            <button className={styles.buttonSend} type="submit">
+              <span>+</span>
+            </button>
           </form>
         </div>
       </section>
